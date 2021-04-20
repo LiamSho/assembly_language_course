@@ -42,10 +42,10 @@ HEXOUT PROC             ;16进制数转ASCII并输出子程序
     JNB     ISALPHABET
     JMP     ISNUMERIC
 ISNUMERIC:
-    ADC     AL, 2FH     ;是数字，加上 2FH 得到 ASCII
+    ADD     AL, 30H     ;是数字，加上 2FH 得到 ASCII
     JMP     DISPLAY
 ISALPHABET:
-    ADC     AL, 37H     ;是字母，加上 37H 得到 ASCII
+    ADD     AL, 37H     ;是字母，加上 37H 得到 ASCII
     JMP     DISPLAY
 DISPLAY:
     MOV     DL, AL      ;输出
