@@ -18,3 +18,7 @@
 4. 从左下角的按钮打开 vscode 设置，找到 `插件 -> MASM/TASM` ,选择 `MASM` 作为宏汇编环境，`DOSBox` 作为运行环境
 5. 打开一个 `ASM` 文件，右键后可选择 `打开DOSbox模拟器` `运行汇编程序` `调试汇编程序`，不推荐直接选择调试，默认调试工具为 DEBUG 而不是 TD
 6. 更多关于 `MASM/TASM` 插件，访问 [官方文档](https://gitee.com/dosasm/masm-tasm/)
+
+## 许可证
+
+本仓库使用 [DO WHAT THE F**K YOU WANT TO PUBLIC LICENSE(WTFPL, 你TM爱干啥干啥)](./LICENSE) 许可证授权
