@@ -1,3 +1,5 @@
+;请注意：此代码只可在 Proteus 仿真时可用
+;实验室的实验箱需要进行一部分修改
 STACKS SEGMENT STACK
     DB 256 DUP(?)
 STACKS ENDS
